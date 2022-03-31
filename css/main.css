@@ -1,0 +1,61 @@
+body {
+  /* width: 90vw; */
+  margin: 0;
+  padding: 0;
+  background: #222831;
+}
+
+.heading_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Boogaloo", cursive;
+  margin-right: 1rem;
+  color: #eeeeee;
+}
+
+.note_png {
+  width: 50px;
+  height: 50px;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 24px;
+  gap: 24px;
+}
+
+.note {
+  height: 200px;
+  background-color: #fd7014;
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+  resize: none;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.add-note {
+  height: 200px;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 120px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-note:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
